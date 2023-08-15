@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-size: cover;
+    background-position: center;
+    background-image: url(pexels-photo-12176675.jpeg)
+}
+
+
+
+
+#text{
+    width: 60%;
+    height: 0.6in;
+    border: 2px solid black;
+    background-color: white;
+    margin-top: 10%;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+}
+.container{
+    border: 2px solid rgb(48, 47, 47);
+    width: 4.5in;
+    height: 3in;
+    margin-left: 33%;
+    margin-top: 11%;
+   opacity: 0.9;
+    box-shadow: 2px 2px 3px 2px black;
+   border-top-left-radius: 10%;
+   border-bottom-right-radius: 30%;
+  backdrop-filter: blur(25px);
+
+  
+ 
+}
+.main{
+ padding-left: 25%;
+    margin-top: 20%;
+
+  
+}
+.grade-text{
+    margin-left: -15%;
+    margin-top: -13%;
+    color: red;
+    font-size: 35px;
+    font-weight:bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#userScore{
+    border: 2px solid red;
+    height: 0.5in;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top:25px;
+    background-color: white;
+    border: none;
+    margin-left: -70px;
+    width: 80%;
+    padding-left: 15px;
+    font-size: 20px;
+position: relative;
+    
+}  
+button{
+    height: 0.53in;
+    width: 25%;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-left: -18px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 5.3%;
+    position: absolute;
+   
+}
+button:hover{
+    background-color: aqua;
+    transform: translateX(4%);
+
+    
+
+}
+@media screen and (max-width:482px){
+    .container{
+        border: 2px solid black;
+        width: 4in;
+        height: 3.3in;
+        margin-left: 0.7%;
+        margin-top: 15%;
+        box-shadow: 2px 2px 3px 2px black;
+        border-radius: 20px;
+        margin-top: 50%;
+        border-top-left-radius: 10%;
+        border-bottom-right-radius: 30%;
+       backdrop-filter: blur(25px);
+    }
+    button{
+        height: 0.53in;
+        width: 25%;
+        background-color: blue;
+        color: white;
+        border: none;
+        margin-left: -18px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        margin-top: 6%;
+        position: absolute;
+    }
+    #userScore{
+        border: 2px solid red;
+        height: 0.5in;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        margin-top:25px;
+        background-color: white;
+        border: none;
+        margin-left: -70px;
+        width: 70%;
+        padding-left: 15px;
+        font-size: 20px;
+    position: relative;
+        
+    }  
+    #text{
+        width: 60%;
+        height: 0.56in;
+        border: 2px solid black;
+        background-color: white;
+        margin-top: 6%;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 15px;
+    }
+    .grade-text{
+        margin-left: -15%;
+        margin-top: -13%;
+        color: red;
+        font-size: 26px;
+        font-weight:bolder;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    
+    }
+}
